@@ -1,0 +1,12 @@
+.container{
+	width: 1280px;
+	margin: 0 auto;
+}
+.header{
+	background: #7974db;
+	height: 100px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
