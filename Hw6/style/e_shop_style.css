@@ -4,9 +4,28 @@
 }
 .header{
 	background: #7974db;
-	height: 100px;
 	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: center;
+}
+.cart {
+	text-decoration: none;
+	color:#000;
+}
+
+.cart1 {
+	width: 200px;
+	height: 150px;
+	display: none;
+}
+.cart1.open {
+	display: block;
+	position: absolute;
+	top: 85px;
+    left: 1390px;
+    background:#3072b0;
 }
