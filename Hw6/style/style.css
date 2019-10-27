@@ -1,0 +1,48 @@
+  #gallery {
+      width: 1000px;
+      margin: 0 auto;
+  }
+
+  #roulette {
+      text-align: center;
+  }
+
+  #roulette img {
+      display: inline-block;
+      width: 100px;
+      margin: 5px;
+  }
+
+  #wrapper {
+      text-align: center;
+  }
+
+  #wrapper img {
+      margin-bottom: 10px;
+
+  }
+
+  .arrows {
+      width: 48px;
+      height: 48px;
+  }
+
+  #prev {
+      border-bottom: 3px solid #8c8c8c;
+      border-left: 3px solid #8c8c8c;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      position: absolute;
+      left: 460px;
+      top: 170px;
+  }
+
+  #next {
+      border-bottom: 3px solid #8c8c8c;
+      border-left: 3px solid #8c8c8c;
+      -webkit-transform: rotate(-135deg);
+      transform: rotate(-135deg);
+      position: absolute;
+      right: 460px;
+      top: 170px;
+  }
